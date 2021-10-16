@@ -1,0 +1,13 @@
+string = input("Enter your String : ")
+
+stringR = ''
+
+for i in string:
+    stringR = i + stringR    
+
+print("\nThe Original String = ", string)
+print("The Reversed String = ", string2)
+
+
+output: The Original String = Edyoda
+        The Reversed String = adoydE
